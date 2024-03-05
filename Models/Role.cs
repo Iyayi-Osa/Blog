@@ -11,5 +11,5 @@ namespace BlogCoursework.Models
         public string? RoleName { get; set; }
         [JsonIgnore]
         public List<User>? Users { get; set; }
-    }
+    }    
 }
